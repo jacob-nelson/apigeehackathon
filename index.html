@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iMarket</title>
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/application.js"></script>
+		<script type="text/javascript" src="js/raphael-min.js"></script>
+		<script type="text/javascript" src="js/graph/g.raphael-min.js"></script>
+		<script type="text/javascript" src="js/graph/g.bar-min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	    <div class="container">
+		<div class="navbar navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="#">iMarket</a>
+				</div>
+			</div>
+		</div>
+			<div class="row">
+		      <div class="span3">
+		        <ul class="nav nav-list commodity-list">
+					<li><a href="#">Ajwan</a></li>
+					<li><a href="#">Alasande Gram</a></li>
+					<li><a href="#">All Flower</a></li>
+					<li><a href="#">Almond(Badam)</a></li>
+					<li><a href="#">Alsandikai</a></li>
+					<li><a href="#">Amaranthus</a></li>
+					<li><a href="#">Ambada Seed</a></li>
+					<li><a href="#">Amla</a></li>
+					<li><a href="#">Amphophalus</a></li>
+					<li><a href="#">Anjura</a></li>
+					<li><a href="#">Antawala</a></li>
+					<li><a href="#">Anthorium</a></li>
+					<li><a href="#">Apple</a></li>
+					<li><a href="#">Apricot(Jardalu/Khumani)</a></li>
+					<li><a href="#">Arecanut(Betelnut/Supari)</a></li>
+					<li><a href="#">Arhar (Tur)</a></li>
+					<li><a href="#">Ashgourd</a></li>
+					<li><a href="#">Astera</a></li>
+					<li><a href="#">Avare</a></li>
+					<li><a href="#">Avare Dal</a></li>
+					<li><a href="#">Bajra(Pearl Millet)</a></li>
+					<li><a href="#">Balekai</a></li>
+					<li><a href="#">Bamboo</a></li>
+					<li><a href="#">Banana</a></li>
+					<li><a href="#">Banana - Green</a></li>
+					<li><a href="#">Barley (Jau)</a></li>
+					<li><a href="#">Bay leaf (Tejpatta)</a></li>
+					<li><a href="#">Beans</a></li>
+					<li><a href="#">Beaten Rice</a></li>
+					<li><a href="#">Beetroot</a></li>
+					<li><a href="#">Bengal Gram Dal</a></li>
+					<li><a href="#">Bengal Grams(Gram)</a></li>
+					<li><a href="#">Ber (Zizyphus)</a></li>
+					<li><a href="#">Betal Leaves</a></li>
+					<li><a href="#">Betelnuts</a></li>
+					<li><a href="#">Bhindi(Ladies Finger)</a></li>
+					<li><a href="#">Big Gram</a></li>
+					<li><a href="#">Binoula</a></li>
+					<li><a href="#">Bitter gourd</a></li>
+					<li><a href="#">Black Gram Dal</a></li>
+					<li><a href="#">Black Grams (Urd Beans)</a></li>
+					<li><a href="#">Black pepper</a></li>
+					<li><a href="#">BOP</a></li>
+					<li><a href="#">Borehannu</a></li>
+					<li><a href="#">Bottle gourd</a></li>
+					<li><a href="#">Bran</a></li>
+					<li><a href="#">Brinjal</a></li>
+					<li><a href="#">Broken Rice</a></li>
+					<li><a href="#">Broomstick</a></li>
+					<li><a href="#">Bull</a></li>
+					<li><a href="#">Bullar</a></li>
+					<li><a href="#">Bunch Beans</a></li>
+					<li><a href="#">Butter</a></li>
+					<li><a href="#">Cabbage</a></li>
+					<li><a href="#">Calf</a></li>
+					<li><a href="#">Camel Hair</a></li>
+					<li><a href="#">Cane</a></li>
+					<li><a href="#">Capsicum</a></li>
+					<li><a href="#">Cardamoms</a></li>
+					<li><a href="#">Carrot</a></li>
+					<li><a href="#">Cashew</a></li>
+					<li><a href="#">Cashew Kernnel</a></li>
+					<li><a href="#">Cashewnuts</a></li>
+					<li><a href="#">Castor Oil</a></li>
+					<li><a href="#">Castor Seed</a></li>
+					<li><a href="#">Cauliflower</a></li>
+					<li><a href="#">Chakotha</a></li>
+					<li><a href="#">Chapparad Avare</a></li>
+					<li><a href="#">Chennangi (W)</a></li>
+					<li><a href="#">Chennangidal</a></li>
+					<li><a href="#">Cherry</a></li>
+					<li><a href="#">Chikoos(Sapota)</a></li>
+					<li><a href="#">Chili Red</a></li>
+					<li><a href="#">Chilly Capsicum</a></li>
+					<li><a href="#">Chow Chow</a></li>
+					<li><a href="#">Chrysanthemum</a></li>
+					<li><a href="#">Chrysanthemum(Loose)</a></li>
+					<li><a href="#">Cinamon(Dalchini)</a></li>
+					<li><a href="#">Citrus Fruit</a></li>
+					<li><a href="#">Cloves</a></li>
+					<li><a href="#">Cluster beans</a></li>
+					<li><a href="#">Coca</a></li>
+					<li><a href="#">Cock</a></li>
+					<li><a href="#">Cocoa</a></li>
+					<li><a href="#">Coconut</a></li>
+					<li><a href="#">Coconut Oil</a></li>
+					<li><a href="#">Coconut Seed</a></li>
+					<li><a href="#">Coffee</a></li>
+					<li><a href="#">Colacasia</a></li>
+					<li><a href="#">Copra</a></li>
+					<li><a href="#">Coriander</a></li>
+					<li><a href="#">Cornation</a></li>
+					<li><a href="#">Corriander seed</a></li>
+					<li><a href="#">Cotton</a></li>
+					<li><a href="#">Cotton Seed</a></li>
+					<li><a href="#">Cow</a></li>
+					<li><a href="#">Cowpea (Lobia)(Asparagus)</a></li>
+					<li><a href="#">Cowpea(Veg)</a></li>
+					<li><a href="#">Cucumbar</a></li>
+					<li><a href="#">Cucumber (Long Melon)</a></li>
+					<li><a href="#">Cummin Seed(Jeera)</a></li>
+					<li><a href="#">Custard Apple (Sharifa)</a></li>
+					<li><a href="#">Daila(Chandni)</a></li>
+					<li><a href="#">Dalda</a></li>
+					<li><a href="#">Delha</a></li>
+					<li><a href="#">Dhaincha</a></li>
+					<li><a href="#">Drumstick</a></li>
+					<li><a href="#">Dry Chillies</a></li>
+					<li><a href="#">Dry Fodder</a></li>
+					<li><a href="#">Dry Grapes</a></li>
+					<li><a href="#">Duck</a></li>
+					<li><a href="#">Duster Beans</a></li>
+					<li><a href="#">Egg</a></li>
+					<li><a href="#">Egypian Clover(Barseem)</a></li>
+					<li><a href="#">Elephant Yam (Suran)</a></li>
+					<li><a href="#">Field Pea</a></li>
+					<li><a href="#">Firewood</a></li>
+					<li><a href="#">Fish</a></li>
+					<li><a href="#">Flower Broom</a></li>
+					<li><a href="#">French Beans (Frasbean)</a></li>
+					<li><a href="#">Fried Gram</a></li>					
+		        </ul>
+		      </div>				
+				<div class="span9 india-map" align="center">
+					<img src="India-Map.png" />
+					<div id="state-data"></div>	
+				</div>
+				<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="close.png" /></button>
+						<h3 id="myModalLabel"></h3>
+					</div>
+					<div class="modal-body">
+				    	<div class="row">
+				    		<div class="span6" id="chart" style="width:250px;height:100px;"></div>
+				    	</div>
+						<div class="row data-header">
+							<div class="span2">Market</div>
+							<div class="span2">Was Available (Quintals)</div>
+							<div class="span1">Minimum Price (Rs)</div>
+							<div class="span1">Maximum Price (Rs)</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					</div>
+				</div>				
+			</div>
+	    </div> <!-- /container -->
+	</body>
+</html>

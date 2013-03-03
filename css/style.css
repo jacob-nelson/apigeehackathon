@@ -1,0 +1,161 @@
+.commodity-list{height: 550px;overflow: auto;}
+.india-map{position: relative;}
+.popout{z-index: 9000;}
+.popout .pin{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	background: url("../pin.png") no-repeat;
+	cursor: pointer;
+	display: none;
+}
+.popout .info{
+	position: absolute;
+	padding: 10px;
+	border: 1px solid #74A6BD;
+	border-radius: 3px;
+	color: #EB8540;
+	background-color: #D4E7ED;
+	width: auto;
+	display: none;
+	z-index: 9100;
+}
+.popout header{
+	background-color: #7195A3;
+	color: #fff;
+	margin: -10px;
+	margin-bottom: 0px;
+	padding: 5px 0px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.closeinfo{
+	float: right;
+	padding-right: 10px;
+	cursor: pointer;
+}
+.pin.kerala{
+	top: 500px;
+	left: 240px;
+}
+.pin.karnataka{
+	top: 410px;
+	left: 220px;
+}
+.pin.tamilnadu{
+	top: 500px;
+	left: 280px;
+}
+.pin.andhrapradesh{
+	top: 400px;
+	left: 280px;
+}
+.pin.maharashtra{
+	top: 350px;
+	left: 200px;
+}
+.pin.gujarat{
+	top: 290px;
+	left: 140px;
+}
+
+.pin.madhyapradesh{
+	top: 275px;
+	left: 230px;
+}
+.pin.chattisgarh{
+	top: 275px;
+	left: 350px;
+}
+.pin.jharkhand{
+	top: 265px;
+	left: 390px;
+}
+.pin.westbengal{
+	top: 265px;
+	left: 430px;
+}
+.pin.orissa{
+	top: 310px;
+	left: 385px;
+}
+.pin.bihar{
+	top: 220px;
+	left: 400px;
+}
+.pin.uttarpradesh{
+	top: 200px;
+	left: 330px;
+}
+.pin.rajastan{
+	top: 200px;
+	left: 200px;
+}
+.pin.haryana{
+	top: 150px;
+	left: 240px;
+}
+.pin.delhi{
+	top: 153px;
+	left: 263px;
+}
+.pin.uttarakhand{
+	top: 130px;
+	left: 295px;
+}
+.pin.punjab{
+	top: 120px;
+	left: 225px;
+}
+.pin.jammukashmir{
+	top: 50px;
+	left: 240px;
+}
+.pin.himachalpradesh{
+	top: 100px;
+	left: 260px;
+}
+.pin.sikkim{
+	top: 170px;
+	left: 450px;
+}
+.pin.meghalaya{
+	top: 205px;
+	left: 490px;
+}
+.pin.assam{
+	top: 190px;
+	left: 510px;
+}
+.pin.arunachalpradesh{
+	top: 140px;
+	left: 545px;
+}
+.pin.tripura{
+	top: 240px;
+	left: 500px;
+}
+.pin.mizoram{
+	top: 250px;
+	left: 520px;
+}
+.pin.manipur{
+	top: 220px;
+	left: 535px;
+}
+.pin.nagaland{
+	top: 190px;
+	left: 540px;
+}
+#myModal{z-index: 9200}
+.modal-body .data-header{
+	font-size: 12px;
+	font-weight: bold;
+}
+.modal-body .row{
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0px;
+}
+.navbar {
+    margin-bottom: 0;
+}
